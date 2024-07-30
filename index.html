@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <script defer src="script.js"></script> 
+</head>
+<body>
+    <h1>🔐 ¡Vamos a encriptar tu texto para que nadie lo sepa! 🔐</h1>
+    <div class="mainContainer">
+        <section class="containerEncriptar">
+            <textarea id="encriptarTextArea" class="encriptarTextArea" placeholder="Escribe aquí el texto que desees encriptar"></textarea>
+            <div id="encriptarError" class="error-message"></div>
+            <button id="btnEncriptar" class="btnEncriptar">¡Encriptar!</button>
+        </section>
+
+        <section class="containerDesencriptar">
+            <textarea id="desencriptarTextArea" class="desencriptarTextArea" placeholder="Aquí verás tú resultado" disabled></textarea>
+            <div id="desencriptarError" class="error-message"></div>
+            <div class="containerbtn">
+                <button id="btnCopy" class="btnCopy">Copiar</button>
+                <button id="btnDesencriptar" class="btnDesencriptar">¡Desencriptar!</button>
+                <img src="Images/clear.png" class="clear" id="clear" alt="Clear"/>
+            </div>
+            <div id="copyMessage" class="copy-message"></div> 
+        </section>
+    </div>
+</body>
+<footer>
+    <p>Elaborado por Liliana Arias, curso de ALURA, Next Education</p>
+    <p>Julio 30, 2024</p>
+</footer>
+</html>
