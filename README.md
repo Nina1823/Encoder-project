@@ -1,8 +1,8 @@
-# Encriptador de Texto
+# Encriptador de Texto🔐
 
 Este proyecto es una aplicación web para encriptar y desencriptar texto utilizando JavaScript. La herramienta convierte texto a una cadena codificada en Base64 y permite revertir esta codificación. También incluye funciones para copiar el texto al portapapeles, validar la entrada y limpiar las áreas de texto.
 
-## Funcionalidades Principales
+## Funcionalidades Principales 🏹 
 
 ### Encriptación de Texto
 - **Introducción de Texto**: Permite a los usuarios introducir texto en minúsculas y espacios en un área de texto.
